@@ -6,7 +6,7 @@ RUN [ "cross-build-start" ]
 
 RUN apk add --no-cache nodejs-current nodejs-current-npm
 
-RUN addgroup -S rocketchat && adduser -S -g rocketchat rocketchat
+RUN addgroup -S rocketchat && adduser -S -g rocketchat rocketchat \
 &&  mkdir -p /app/uploads \
 &&  chown rocketchat.rocketchat /app/uploads
 
