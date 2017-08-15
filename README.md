@@ -4,6 +4,7 @@ Rocket Chat in docker for armhf &amp; arm64 boards
 The images in this repository are cross-build on the docker Hub thanks to Resin.io
 
 https://hub.docker.com/r/armhub/armhf-rocket.chat/
+
 https://hub.docker.com/r/armhub/aarch64-rocket.chat/
 
 ## Usage 
